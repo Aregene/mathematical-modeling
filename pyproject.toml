@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "mathematical-modeling"
+version = "0.1.0"
+description = "This warehouse is used to store the code and data I used for playing mathematical modeling competitions"
+authors = ["aregene sh1212121245@126.com"]
+license = "MIT"
+
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
+scipy = "*"
+plotly = "*"
+scikit-learn = "*"
+jupyterlab = "*"
+jupyter = "*"
+jupyterlab-language-pack-zh-CN = "*"
+anywidget = "*"
+jupyterlab-lsp = "*"
+jupyterlab-code-formatter = "*"
+isort = "*"
+black = "*"
+openpyxl = "*"
+toml = "*"
+statsmodels = "*"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^6.0"
+flake8 = "^3.9"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[proportion.101]
+file_path = "../../【数学建模】：利用比例性进行建模/data/data.xlsx"
+sheet_name = "【1.0.1】弹簧-质量系统"
